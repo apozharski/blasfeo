@@ -127,6 +127,7 @@
 #define REF_ROWAD_SP blasfeo_ref_srowad_sp
 #define REF_ROWSW blasfeo_ref_srowsw
 #define REF_ROWPE blasfeo_ref_srowpe
+#define REF_ROWPE_OFFSET blasfeo_ref_srowpe_offset
 #define REF_ROWPEI blasfeo_ref_srowpei
 #define REF_COLEX blasfeo_ref_scolex
 #define REF_COLIN blasfeo_ref_scolin
