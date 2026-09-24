@@ -1370,7 +1370,7 @@ void REF_ROWPE(int kmax, int *ipiv, struct MAT *sA)
 	}
 
 // permute the rows of a matrix struct offset by ai
-void REF_ROWPE_OFSET(int kmax, int *ipiv, struct MAT *sA, int ai)
+void REF_ROWPE_OFFSET(int kmax, int *ipiv, struct MAT *sA, int ai)
 	{
 	// invalidate stored inverse diagonal
 	sA->use_dA = 0;
