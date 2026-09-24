@@ -517,7 +517,7 @@ void blasfeo_drowpe(int kmax, int *ipiv, struct blasfeo_dmat *sA)
 	return;
 	}
 
-// permute the rows of a matrix struct offset by xi rows
+// permute the rows of a matrix struct offset by ai rows
 void blasfeo_drowpe_offset(int kmax, int *ipiv, struct blasfeo_dmat *sA, int ai)
 	{
 
