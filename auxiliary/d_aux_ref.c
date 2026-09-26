@@ -201,6 +201,7 @@
 #define ROWAD_SP blasfeo_drowad_sp
 #define ROWSW blasfeo_drowsw
 #define ROWPE blasfeo_drowpe
+#define ROWPE_OFFSET blasfeo_drowpe_offset
 #define ROWPEI blasfeo_drowpei
 #define COLEX blasfeo_dcolex
 #define COLIN blasfeo_dcolin

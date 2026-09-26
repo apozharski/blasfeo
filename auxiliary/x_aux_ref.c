@@ -1979,6 +1979,11 @@ void ROWPE(int kmax, int *ipiv, struct MAT *sA)
 	REF_ROWPE(kmax, ipiv, sA);
 	}
 
+void ROWPE_OFFSET(int kmax, int *ipiv, struct blasfeo_dmat *sA, int ai)
+	{
+	REF_ROWPE_OFFSET(kmax, ipiv, sA, ai);
+	}
+
 
 
 void ROWPEI(int kmax, int *ipiv, struct MAT *sA)
